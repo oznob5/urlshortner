@@ -1,0 +1,41 @@
+body, .input, .button, .block, .output-block {
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 30px;
+    color: #fff;
+}
+
+.block {
+    height: 350px;
+    width: 750px;
+    margin: auto;
+    margin-top: 100px;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); 
+    border-radius: 8px;
+    border: 3px solid #000;
+}
+
+.input, .button {
+    height: 50px;
+    width: 100%;
+    border: none;
+}
+
+.button {
+    background: inherit;
+    color: #fff;
+}
+
+.output {
+    color: #000;
+}
+
+.output-block {
+    padding-bottom: 55px;
+    background: #fff;
+}

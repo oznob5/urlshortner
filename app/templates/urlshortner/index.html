@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="block">
+    <h2>URL Shortner</h2>
+    <form class="form">
+        {% csrf_token %}
+        <input type="text" class="input" placeholder="Type URL to short it">
+        <br>
+        <button class="button">SHORT</button>
+    </form>
+    <div class="output-block">
+        <h2 class="output">ddd</h2>
+    </div>
+</div>
+{% endblock %}
